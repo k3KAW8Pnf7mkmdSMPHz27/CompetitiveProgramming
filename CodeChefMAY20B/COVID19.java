@@ -11,12 +11,41 @@ class COVID19 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = readInt(br);
         for (; T > 0; T--) {
-            int N = readInt(br);
+            final int N = readInt(br);
             int[] positions = new int[N];
             for (int i = 0; i < N; i++) {
                 positions[i] = readInt(br);
             }
+            Arrays.sort(positions);
 
+            int max = 0;
+            int min = 0;
+            for (int person = 0; person < N; person++) {
+                int total_infected = 1;
+                //Check left
+                int pos = positions[person];
+                for (int i = person-1; i >= 0; i--) {
+                    if(pos - positions[person] <= 2) {
+                        total_infected++;
+                    } else {
+                        break;
+                    }
+                    pos = positions[person];
+                }
+                //Check right
+                pos = positions[person];
+                for (int i = person-1; i >= 0; i--) {
+                    if(positions[person] - pos <= 2) {
+                        total_infected++;
+                    } else {
+                        break;
+                    }
+                    pos = positions[person];
+                }
+                max = Math.max(max, total_infected);
+                min = Math.min(min, total_infected);
+            }
+            System.out.println(min + " " + max);
         }
     }
 
