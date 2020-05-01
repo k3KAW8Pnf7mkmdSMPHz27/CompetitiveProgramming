@@ -30,7 +30,7 @@ class COVID19 {
                     } else {
                         break;
                     }
-                    pos = positions[person];
+                    pos = positions[i];
                 }
                 //Check right
                 pos = positions[person];
@@ -40,7 +40,7 @@ class COVID19 {
                     } else {
                         break;
                     }
-                    pos = positions[person];
+                    pos = positions[i];
                 }
                 max = Math.max(max, total_infected);
                 min = Math.min(min, total_infected);
