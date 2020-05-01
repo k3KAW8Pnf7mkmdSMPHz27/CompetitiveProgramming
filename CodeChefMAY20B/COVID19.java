@@ -19,7 +19,7 @@ class COVID19 {
             Arrays.sort(positions);
 
             int max = 1;
-            int min = 1;
+            int min = Integer.MAX_VALUE;
             for (int person = 0; person < N; person++) {
                 int total_infected = 1;
                 //Check left
