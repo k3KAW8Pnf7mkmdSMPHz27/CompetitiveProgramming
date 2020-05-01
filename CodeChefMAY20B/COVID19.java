@@ -25,7 +25,7 @@ class COVID19 {
                 //Check left
                 int pos = positions[person];
                 for (int i = person-1; i >= 0; i--) {
-                    if(pos - positions[person] <= 2) {
+                    if(pos - positions[i] <= 2) {
                         total_infected++;
                     } else {
                         break;
@@ -34,8 +34,8 @@ class COVID19 {
                 }
                 //Check right
                 pos = positions[person];
-                for (int i = person-1; i >= 0; i--) {
-                    if(positions[person] - pos <= 2) {
+                for (int i = person+1; i < N; i++) {
+                    if(positions[i] - pos <= 2) {
                         total_infected++;
                     } else {
                         break;
