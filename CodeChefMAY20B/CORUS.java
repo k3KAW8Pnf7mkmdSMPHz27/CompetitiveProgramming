@@ -13,8 +13,8 @@ class CORUS {
         for (; T > 0; T--) {
             int N = readInt(br);
             int Q = readInt(br);
-            br.read(); //Remove new line
-            char[] S = br.readLine().toLowerCase().toCharArray();
+            //br.read(); //Remove new line
+            char[] S = br.readLine().toCharArray();
             // S is of length N
             // Each ith person has disease S_i
             int[] carriers = new int[26]; //Given by problem, max 26
@@ -23,9 +23,14 @@ class CORUS {
                 final int disease = S[i]-'a';
                 carriers[disease]++;
             }
+
             for (int i = 0; i < Q; i++) {
                 int C = readInt(br);
-
+                long ans = 0;
+                for (int j = 0; j < 26; j++) {
+                    ans += Math.max(carriers[j] - C, 0);
+                }
+                System.out.println(ans);
             }
         }
     }
