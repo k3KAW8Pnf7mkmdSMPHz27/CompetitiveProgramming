@@ -18,7 +18,11 @@ class CORUS {
             // S is of length N
             // Each ith person has disease S_i
             int[] carriers = new int[26]; //Given by problem, max 26
-
+            //Calculate how many carriers there are of each disease
+            for (int i = 0; i < N; i++) {
+                final int disease = S[i]-'a';
+                carriers[disease]++;
+            }
             for (int i = 0; i < Q; i++) {
                 int C = readInt(br);
 
