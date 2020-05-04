@@ -14,7 +14,7 @@ class CORUS {
             int N = readInt(br);
             int Q = readInt(br);
             br.read(); //Remove new line
-            char[] S = br.readLine().toCharArray();
+            char[] S = br.readLine().toLowerCase().toCharArray();
             // S is of length N
             // Each ith person has disease S_i
             int[] carriers = new int[26]; //Given by problem, max 26
