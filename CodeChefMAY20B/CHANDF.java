@@ -9,18 +9,19 @@ class CHANDF {
     public static void main(String[] args) throws IOException {
         // your code goes here
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = readInt(br);
+        long T = readLong(br);
         for (; T > 0; T--) {
-            int X = readInt(br);
-            int Y = readInt(br);
-            int L = readInt(br);
-            int R = readInt(br);
-
+            long X = readLong(br);
+            long Y = readLong(br);
+            long L = readLong(br);
+            long R = readLong(br);
+            //(X and Z) * (Y and Z)
+            long Z = L;
         }
     }
 
-    private static int readInt(BufferedReader br) throws IOException {
-        int value = 0;
+    private static long readLong(BufferedReader br) throws IOException {
+        long value = 0;
         int current = br.read();
         while (current < '0' || current > '9') {
             current = br.read();
