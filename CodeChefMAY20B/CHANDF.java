@@ -19,7 +19,7 @@ class CHANDF {
             long Z = L;
             long max_value = 0;
             for (long i = L; i <= R; i++) {
-                long currentValue = (X&Z)*(Y&Z);
+                long currentValue = (X&i)*(Y&i);
                 if (currentValue > max_value) {
                     Z = i;
                     max_value = currentValue;
