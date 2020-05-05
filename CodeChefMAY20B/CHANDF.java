@@ -17,6 +17,15 @@ class CHANDF {
             long R = readLong(br);
             //(X and Z) * (Y and Z)
             long Z = L;
+            long max_value = 0;
+            for (long i = L; i <= R; i++) {
+                long currentValue = (X&Z)*(Y&Z);
+                if (currentValue > max_value) {
+                    Z = i;
+                    max_value = currentValue;
+                }
+            }
+            System.out.println(Z);
         }
     }
 
