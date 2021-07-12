@@ -1,0 +1,87 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: Jonatan Testing
+url: 'https://github.com/k3KAW8Pnf7mkmdSMPHz27/CompetitiveProgramming'
+releaseDate: Today
+developmentStatus: concept
+softwareType: addon
+platforms:
+  - web
+categories:
+  - test-management
+maintenance:
+  type: none
+legal:
+  license: MIT
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - en
+description:
+  us:
+    genericName: Competitive Programming
+    shortDescription: Test
+    longDescription: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae odio
+      pulvinar, cursus eros at, elementum felis. Vivamus non posuere nulla.
+      Pellentesque egestas dui nibh, nec sodales ligula placerat rhoncus. Duis
+      finibus diam diam, eget mattis lorem lacinia sed. Integer iaculis mauris
+      in tellus ullamcorper, ut molestie ipsum volutpat. Sed nec feugiat sem.
+      Quisque pellentesque et risus eget elementum. Cras nec consequat purus.
+      Nullam mattis mauris ante, vitae luctus augue efficitur a. In vitae porta
+      neque. Vivamus vitae felis congue, consequat dolor eget, viverra urna.
+      Donec lobortis dui ipsum, et lacinia mauris pretium quis. Integer vehicula
+      tortor neque, id varius est convallis id.
+
+
+      Donec placerat neque at porttitor euismod. Aliquam non dapibus metus.
+      Pellentesque nec malesuada ex, in pharetra eros. Mauris non porttitor
+      turpis. Sed vitae tellus vulputate, sodales purus id, sodales dui. Cras
+      vitae efficitur mi. Ut maximus luctus odio a aliquet. Mauris et magna ac
+      nisi auctor pulvinar quis quis tellus. Nulla vel tincidunt arcu. Mauris
+      maximus bibendum purus, at ultricies turpis placerat id. Suspendisse et
+      tempor odio. Pellentesque neque purus, mollis sit amet egestas vitae,
+      congue vitae leo. Mauris sodales, neque sollicitudin pellentesque commodo,
+      turpis sapien lobortis ipsum, volutpat rhoncus tellus leo non orci.
+      Suspendisse potenti. Mauris feugiat velit ut mi efficitur, ac bibendum
+      urna gravida. Praesent in libero fermentum libero tristique tempor ac ut
+      velit.
+
+
+      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+      cubilia curae; Donec fringilla ante nec tincidunt cursus. Sed ornare augue
+      id cursus commodo. Nunc at tincidunt tellus. Phasellus et pulvinar sapien.
+      Sed id iaculis erat. Suspendisse sed ultrices nulla, id ultrices massa.
+      Curabitur nec ex vestibulum, pharetra magna nec, mollis lectus. Vivamus ut
+      sapien placerat, rhoncus eros ac, congue ligula. Vestibulum orci nibh,
+      suscipit id ipsum eget, dictum pellentesque libero. Nam arcu ligula,
+      pellentesque non massa eu, sagittis scelerisque velit. Mauris consectetur
+      pellentesque velit, a efficitur massa lacinia nec. Interdum et malesuada
+      fames ac ante ipsum primis in faucibus. Proin non nisi sem. Nullam
+      elementum sapien est, nec imperdiet massa vulputate sit amet. Fusce
+      pharetra finibus porttitor.
+
+
+      Ut in tellus a nisi euismod dictum vitae quis justo. Mauris eget risus
+      augue. Morbi aliquam enim eget nunc iaculis congue. Ut vehicula lacinia
+      risus, non lobortis lacus placerat semper. Etiam pulvinar pellentesque
+      scelerisque. Morbi porta eleifend elit, sit amet aliquam ipsum tempor
+      quis. Quisque ultricies nec nulla nec pretium. Aliquam erat volutpat. Sed
+      euismod porta ante, et bibendum ex maximus sed. Phasellus ac ligula ante.
+      Aenean sed nisl nulla.
+
+
+      Nullam iaculis fermentum nisl, aliquam hendrerit ligula malesuada in. Duis
+      vel magna quis metus accumsan ornare. Pellentesque viverra iaculis
+      dapibus. Curabitur bibendum, quam id ultrices efficitur, magna augue
+      dapibus enim, vitae ultrices erat velit sed neque. Aliquam et rutrum est.
+      Cras facilisis metus nibh, vulputate lacinia quam semper auctor. Nam et
+      eros fermentum, maximus purus quis, ullamcorper velit. Mauris et semper
+      orci, vel volutpat felis. Fusce nec mollis metus, at viverra libero. Cras
+      scelerisque, est at pulvinar posuere, libero justo dapibus leo, vitae
+      dictum nisl sem eget sem. Mauris vel neque finibus.
+    features:
+      - None
